@@ -10,8 +10,6 @@ const socket = io('http://172.178.104.95/');
 
 // Function to populate the HTML table with data
 function populateTable(data) {
-    // const tableBody = document.querySelector('#data-table tbody');
-    // Find the .item element inside .most-popular
 console.log(data)
 // Find the .item element inside .most-popular
 let tag_list = ['battery_health','speed','engine_temperature','fuel_level','mileage','timestamp']
