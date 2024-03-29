@@ -1689,7 +1689,7 @@ body {
     margin-bottom: 20px;
   }
 }
-
+#map { margin-top: 20px; }
 @media (max-width: 992px) {
   .background-header {
   display: inline-block;
