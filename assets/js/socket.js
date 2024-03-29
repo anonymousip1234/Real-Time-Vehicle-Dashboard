@@ -33,38 +33,6 @@ h4Element.textContent = `${data[tag]}`;
 }
 
 
-// // Find the existing <p> tag inside .item
-// let pElement = itemElement.querySelector('p');
-
-// // If <p> element doesn't exist, create a new one
-// if (!pElement) {
-//     pElement = document.createElement('p');
-//     itemElement.appendChild(pElement);
-// }
-
-// // Populate the <p> element with battery_health data
-// pElement.textContent = `${data.battery_health}`;
-
-
-
-
-
-
-    // tableBody.innerHTML = '';
-    // const h4 =document.createElement('h4')
-    // Create table row
-    // const row = document.createElement('tr');
-    // row.innerHTML = `
-    //     <td>${data.latitude}</td>
-    //     <td>${data.longitude}</td>
-    //     <td>${data.battery_health}</td>
-    //     <td>${data.speed}</td>
-    //     <td>${data.engine_temperature}</td>
-    //     <td>${data.fuel_level}</td>
-    //     <td>${data.mileage}</td>
-    //     <td>${new Date(data.timestamp * 1000)}</td>
-    // `;
-    // tableBody.appendChild(row);
 
     // Clear existing markers
     markers.clearLayers();
